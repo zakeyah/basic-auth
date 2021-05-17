@@ -1,8 +1,8 @@
 'use strict';
 
 const express = require('express');
-const bcrypt = require('bcrypt');
-const base64 = require('base-64');
+
+
 const mongoose = require('mongoose');
 const cors = require('cors');
 const errorHandler = require('./middleware/500');
